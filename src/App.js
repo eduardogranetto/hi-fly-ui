@@ -17,11 +17,13 @@ class App extends Component {
 
    render() {
       const { data } = this.state;
-      return (        
-        <div>Loading...</div>,
-        <h1>Code: {data.code}</h1>,
-        <h1>Hi Var: {data.hiVar}</h1>,
-        <h1>Version: {data.versionSha}</h1>
+      return (
+            <div>
+            <div>Loading...</div>
+            <h1>Code: {data.code}</h1>
+            <h1>Hi Var: {data.hiVar}</h1>
+            <h1>Version: {data.versionSha}</h1>
+         </div>
       );
    }
 }
